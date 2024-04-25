@@ -1,0 +1,141 @@
+.outer-container-searchbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: #EAF2EA;
+    height: 221px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.circle1{
+    position: absolute;
+    top: 0px;
+    left: 115px
+}
+
+.circle2{
+    position: absolute;
+    top: 0px;
+    right: 115px;
+}
+
+.circle3{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #CFEBCF;
+    left: 234px;
+    top: 113px;
+    width: 184px;
+    height: 184px;
+    opacity: 0.5;
+    
+}
+
+.circle4{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #CFEBCF;
+    right: 234px;
+    top: 113px;
+    width: 184px;
+    height: 184px;
+    opacity: 0.5;
+
+}
+.text-search{
+    font-size: 32px;
+    font-weight: bold;
+    color: black    ;
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row ;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: #D4D4D4;
+
+
+}
+.dropdown{
+    width: 220px;
+    /* height: 100vh; */
+    margin: 0;
+    
+}
+
+.name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    color: #767676;
+    width: 200px;
+    height: 54px;
+}
+
+.search-input{
+    width: 500px;
+    display: flex;
+    height: 54px;
+    padding: 10px;
+    border-radius: 8px;
+    border: #D4D4D4;
+    justify-content: center;
+    align-items: center;
+}
+
+*:focus {
+    outline: none;
+}
+.search-button{
+    position: absolute;
+    right: 10px;
+}
+
+.xyz{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown .dropdown-button{
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+    width: 250px;
+    height: 54px;
+    background-color: white;
+}
+
+
+.dropdown .dropdown-content{
+    display: none;
+    position: absolute;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}   
+
+.location-selector > select{
+    border: none;
+
+}
+
+
+.location-selector{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+    height: 100%
+    border
+}

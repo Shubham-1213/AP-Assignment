@@ -1,0 +1,58 @@
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.control-buttons{
+  border: none;
+  background-color: white;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 0 0 calc(33.33% - 30px); /* Display 3 items in a row with spacing */
+  padding: 10px;
+  border: 1px solid #E2E2E2;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.item-icon {
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+.carousel-item.selected {
+  background-color: #F2FBF2
+  ; /* Apply green background to selected item */
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+/* button:hover {
+  background-color: #e0e0e0;
+} */

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Cobbler Sans';
+    src: local('Cobbler Sans Medium'),
+         local('Cobbler-Sans-Medium'),
+         url('font/CobblerSans-Medium.woff2') format('woff2'),
+         url('font/CobblerSans-Medium.woff') format('woff'),
+         url('font/CobblerSans-Medi um.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }

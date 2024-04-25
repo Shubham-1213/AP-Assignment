@@ -1,0 +1,131 @@
+.appointment-fees-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 15px;
+    justify-content: space-between; 
+    height: auto;
+    padding: 15px;
+    border: 1px solid #E2E2E2;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.fees-amount{
+    color: #3A643B;
+}
+
+.mode-of-session-heading-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.empty-div-right{
+    
+    width: 40%;
+    border-bottom: 1px solid #D4D4D4;
+    height: 12px ;
+}
+
+.mode-selection-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    gap: 15px;
+    
+    
+}
+
+.details-container-mode{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+    gap: 7px;
+    height: 60px;
+}
+
+.green-container{
+    background-color: #F2FBF2;
+}
+
+.mode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.empty-div-right-2{
+    width: 60%;
+    border-bottom: 1px solid #D4D4D4;
+    height: 12px ;
+}
+
+.Morning-time-container{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    gap: 16px;
+    padding: 15px;
+}
+
+.timings-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 13px;
+}
+
+.slot-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23%;
+    height: 50px;
+    border: 1px solid #EBEBEB;
+    border-radius: 22px;
+}
+
+.slot-name{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.selectedTime{
+    background-color: #3A643B;
+    color: white;
+}
+
+.make-appointment-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #3A643B;
+    height: 50px;
+    border-radius: 8px;
+    color: white;    
+}
+
+.carousal-time-slot{
+    border-radius: 21px;
+    border: 1px solid #E1E1E1;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+}

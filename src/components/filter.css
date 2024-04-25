@@ -1,0 +1,47 @@
+.outer-container-filter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #EDEDED;
+    
+}
+
+.name-container{
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10%;
+}
+
+.green-button{
+    background-color: #DCEEDC;
+}
+
+select{
+    background-color: #F3F3F3 ;
+    border: none;
+    width: 100;
+}
+
+.added-filters {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    white-space: nowrap; /* Prevent wrapping to keep items in a single line */
+    padding: 20px ;
+  }
+  
+  .filter-item {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 10px;
+    background-color: #E0E0E0;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #333;
+  } 

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Cobbler Sans';
+    src: local('Cobbler Sans Medium'), local('Cobbler-Sans-Medium'),
+        url('CobblerSans-Medium.woff2') format('woff2'),
+        url('CobblerSans-Medium.woff') format('woff'),
+        url('CobblerSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.outer-container-navbar{
+    background-color: #FFF7E2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 94px;
+}
+
+.button-container-navbar{
+    display: flex;
+    border: none;
+    gap: 30px;
+    align-items: center;
+    margin-left: 0;
+    width: 50%;
+}
+
+.button-container-navbar > button{
+    border: none;
+    background-color: #FFF7E2;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.selected{
+    color: #3A643B
+}
+
+.sign-in-buttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 0;
+    height: 100%
+}
+
+.sign-in-buttons > button{
+    border-radius: 11px;
+    font-size: 20px;
+    height: 60%;
+   
+}
+
+.login{
+    color: #3A643B;
+    background-color: #FFF7E2;
+    font-weight: 600;
+    border-color: #3A643B;
+    width: 118px;
+}
+
+.sign-up{
+    background-color: #3A643B;
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: 160px;
+}
+
+

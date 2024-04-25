@@ -1,0 +1,144 @@
+.outer-container-single-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #FFF7E2;
+    width: 25%;
+    border-radius: 30px;
+}
+
+.outer-container-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.profile-image{
+    display: flex;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    border-radius: 17px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.name{
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 20px;
+    color: #646665;
+    margin-bottom: 20px;
+
+    /*   */
+
+}
+.specaility{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: center; */
+}
+
+.experience-card{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    /* justify-content: center; */
+}
+
+.language-card{
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    gap: 10px;
+}
+
+.consultation-buttons-container{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px   ;
+    justify-content: space-between;
+    /* width: 70%;
+    align-items: center; */
+
+}
+
+.video-consultation{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #3A643B63;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    height: 60px;
+    padding: 10px;
+    gap: 4px;
+    font-size: 14px;
+    color: #3C3C3C;
+}
+.price{
+    color: #3A643B;
+    font-weight: 700 ;
+}
+
+.big-buttons{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    
+}
+
+.view-button{
+    border: 1px solid #3A643B;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3A643B;
+}
+
+.book-button{
+    border: none;
+    background-color: #3A643B;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+
+}
