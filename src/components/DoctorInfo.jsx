@@ -1,13 +1,20 @@
 import tick from "../images/tick.png";
 import Star from "../images/Star.png";
 import "./doctorinfo.css";
+import profile_2 from "../images/view_profile_image.png";
+import bg_image from "../images/bg_image.png";
 
 export default function DoctorInfo() {
   return (
     <div className="outer-container-about">
       <div className="main-container">
+        <div className="bg-image">
+          <img src={bg_image}  />
+        </div>
         <div className="content-container">
-          <div className="profile-photo"></div>
+          <div className="profile-photo">
+            <img src={profile_2} alt="profile" />
+          </div>
           <div className="name-info">
             <div className="name-with-tick">
               <p>Dr. Bruce Wills</p>
